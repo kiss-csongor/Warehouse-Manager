@@ -8,7 +8,8 @@ import Carousel from './Component/Carousel/Carousel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className='body'>
+  <div className='body z-20'>
+    <Navbar />
     <Carousel />
   </div>
 );
