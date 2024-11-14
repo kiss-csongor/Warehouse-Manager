@@ -4,11 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import StockList from './StockList';
 import Navbar from './Component/Navbar/Navbar';
+import Carousel from './Component/Carousel/Carousel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='body'>
-    <Navbar />
+    <Carousel />
   </div>
 );
 
